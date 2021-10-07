@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  --black: #0d114f;
+  --white: #fafafa;
+  --pure-white: #ffffff;
+  --red: #e83f5b;
+  --light-red: #ffeff1;
+  --blue: #3485ff;
+  --light-blue: #e0ecff;
+  --light-green: #c8f7c5;
+  --background: #f6faff;
+  --overlay: #040911;
+  --icons-details: #a5b0c1;
+
+  --grey-dark: #4d5e77;
+  --grey-blue: #a1b2cd;
+  --grey-medium: #eaecf1;
+  --grey-light: #e5eaf1;
+
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  background: var(--background);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-size: clamp(14px, 1.6rem, 2vw);
+  font-family: "Open Sans", sans-serif;
+}
